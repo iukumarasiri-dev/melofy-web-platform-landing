@@ -4,7 +4,7 @@ import Button from '../components/Button';
 
 const Hero = () => {
   return (
-    <section className="flex flex-col items-center text-center px-6 pt-32 pb-20 max-w-5xl mx-auto">
+    <section className="flex flex-col items-center text-center px-6 pt-40 pb-20 max-w-5xl mx-auto">
       
       {/* 1. Logo Circle (Fixed Size & File) */}
       <div className="mb-6 p-1 rounded-full bg-gradient-to-r from-purple-500 to-pink-500">
@@ -19,7 +19,7 @@ const Hero = () => {
       
       {/* 2. Main Headline */}
       <h1 className="text-5xl md:text-7xl font-extrabold mb-6 tracking-tight text-gray-900 leading-tight">
-        Feel the rhythm. <br />
+        Feel the rhythm, <br />
         <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-600 via-pink-500 to-blue-500">
           Store your sound.
         </span>
