@@ -56,7 +56,7 @@ const Navbar = () => {
             onClick={() => navigate('/app')}
             className="px-5 py-2 rounded-full text-xs font-bold text-white bg-gray-900 hover:bg-purple-600 transition-all shadow-md hover:shadow-purple-500/25"
           >
-            Start Now
+            Get started
           </button>
         </div>
 
