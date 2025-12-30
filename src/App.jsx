@@ -2,7 +2,9 @@ import React from 'react';
 import Navbar from './components/Navbar';
 import Hero from './sections/Hero';
 import Features from './sections/Features';
-import About from './sections/About'; // <--- Import it
+import About from './sections/About';
+import Download from './sections/Download';
+import Footer from './components/Footer'; // <--- 1. Import this
 
 function App() {
   return (
@@ -11,8 +13,10 @@ function App() {
       <main>
         <Hero />
         <Features />
-        <About /> {/* <--- Add it here */}
+        <About />
+        <Download />
       </main>
+      <Footer /> 
     </div>
   );
 }
