@@ -4,7 +4,7 @@ import Hero from './sections/Hero';
 import Features from './sections/Features';
 import About from './sections/About';
 import Download from './sections/Download';
-import Footer from './components/Footer'; // <--- 1. Import this
+import Footer from './components/Footer'; 
 
 function App() {
   return (

@@ -31,7 +31,7 @@ const Navbar = () => {
           ))}
         </div>
 
-        {/* --- CENTER: Logo --- */}
+        
         <div className="flex items-center justify-center gap-2 transform hover:scale-105 transition-transform cursor-pointer">
             <img 
               src="/logo.png" 

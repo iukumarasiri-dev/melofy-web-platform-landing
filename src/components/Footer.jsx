@@ -6,10 +6,9 @@ const Footer = () => {
     <footer className="bg-gray-50 border-t border-gray-100 pt-16 pb-8">
       <div className="max-w-7xl mx-auto px-6">
         
-        {/* --- Top Section: Columns --- */}
+        
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mb-12">
           
-          {/* Column 1: Brand Identity */}
           <div className="col-span-2 md:col-span-1 flex flex-col items-start gap-4">
             <div className="flex items-center gap-2">
                 {/* Reusing your logo logic or an icon if logo fails */}
